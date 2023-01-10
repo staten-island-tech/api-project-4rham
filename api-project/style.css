@@ -8,3 +8,13 @@ body,
   background-color: var(--primary);
   color: rgb(0, 0, 0);
 }
+
+:root {
+  --dark_blue: #0c164f
+  --light_purple: #7649fe
+}
+
+.main {
+  --primary: var(--dark_blue);
+  --secondary: var(--light_purple)
+}

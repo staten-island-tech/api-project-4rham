@@ -1,6 +1,7 @@
 import "./style.css";
 
-const URL = "https://api.nasa.gov/planetary/apod";
+const URL =
+  "https://api.nasa.gov/planetary/apod?api_key=9Ix96xs5QBJhrej9Zcvx5IBNY8J9Xuv3QiDychbw";
 
 async function getData(URL) {
   try {
@@ -17,4 +18,10 @@ async function getData(URL) {
     console.log("no!");
   }
 }
+
+document.querySelector("#search").innerHTML = `<form id="form"> 
+<input type="search" id="query" name="q" placeholder="Search...">
+<button>Search</button>
+</form>`;
+
 getData(URL);
