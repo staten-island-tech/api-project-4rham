@@ -1,7 +1,6 @@
 import "./style.css";
 
-const URL =
-  "https://api.nasa.gov/planetary/apod?api_key=9Ix96xs5QBJhrej9Zcvx5IBNY8J9Xuv3QiDychbw";
+const URL = "https://www.amiiboapi.com/api/amiibo/?name=";
 
 async function getData(URL) {
   try {
@@ -19,9 +18,12 @@ async function getData(URL) {
   }
 }
 
-document.querySelector("#search").innerHTML = `<form id="form"> 
+document.querySelector(
+  ".main"
+).innerHTML = `<h1 id="title">AMIIBEEZ NUTZ IN YO MOUF LMAOO</h1>
+<form id="form"> 
 <input type="search" id="query" name="q" placeholder="Search...">
-<button>Search</button>
+<button id="sb">Search</button>
 </form>`;
 
 getData(URL);

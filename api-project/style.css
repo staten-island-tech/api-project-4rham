@@ -15,6 +15,20 @@ body,
 }
 
 .main {
-  --primary: var(--dark_blue);
-  --secondary: var(--light_purple)
+  background-color: rgb(207, 253, 231);
+}
+#form {
+  font-size: 5rem;
+  display: block;
+  text-align: center;
+  margin: auto;
+  background-color: aquamarine;
+  padding: 30px;
+  width: 800px;
+  
+}
+#title {
+  font-size: 10rem;
+  text-align: center;
+  margin-bottom: 25px;
 }
