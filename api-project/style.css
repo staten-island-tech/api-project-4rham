@@ -16,6 +16,7 @@ body,
 
 .main {
   background-color: rgb(207, 253, 231);
+  font-family: 'Bauhaus Md BT', sans-serif;
 }
 #form {
   font-size: 5rem;
@@ -25,10 +26,16 @@ body,
   background-color: aquamarine;
   padding: 30px;
   width: 800px;
-  
+  border-radius: 30px;
 }
 #title {
   font-size: 10rem;
   text-align: center;
   margin-bottom: 25px;
+}
+
+#cover {
+  display: block;
+  margin: auto;
+  height: 100px
 }

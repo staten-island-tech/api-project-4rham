@@ -18,9 +18,9 @@ async function getData(URL) {
   }
 }
 
-document.querySelector(
-  ".main"
-).innerHTML = `<h1 id="title">AMIIBEEZ NUTZ IN YO MOUF LMAOO</h1>
+document.querySelector(".main").innerHTML = `
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Amiibo_logo.png" alt="amiibo" id = "cover">
+<h1 id="title">Find Your Figure!</h1>
 <form id="form"> 
 <input type="search" id="query" name="q" placeholder="Search...">
 <button id="sb">Search</button>
