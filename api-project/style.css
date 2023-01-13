@@ -39,3 +39,12 @@ body,
   margin: auto;
   height: 100px
 }
+
+#sb {
+  background-color: aliceblue;
+  padding: 15px 40px;
+  border: 10px;
+  font-size: 2rem;
+  border-radius: 100px;
+  transition: all 0.2s;
+}
